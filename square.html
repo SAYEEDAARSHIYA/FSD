@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Square Calculator</title>
+</head>
+<body>
+  <script>
+    let number = prompt("Enter a number:");
+    number = parseFloat(number);
+
+    if (isNaN(number)) {
+      alert("That's not a valid number.");
+    } else {
+      let square = number * number;
+      alert("The square of the number is: " + square);
+    }
+  </script>
+</body>
+</html>

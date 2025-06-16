@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Current Date and Time</title>
+</head>
+<body>
+  <h2>Current Date and Time:</h2>
+  <p id="dateTime"></p>
+
+  <script>
+    // Get the current date and time
+    let now = new Date();
+
+    // Format it as a readable string
+    let dateTimeString = now.toString();
+
+    // Display it in the <p> element
+    document.getElementById("dateTime").textContent = dateTimeString;
+  </script>
+</body>
+</html>
